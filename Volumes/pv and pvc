@@ -1,3 +1,4 @@
+* pv (persistent volume)
 apiVersion: v1
 kind: PersistentVolume
 metadata:
@@ -10,4 +11,18 @@ spec:
   persistentVolumeReclaimPolicy: Retain  # Policy when the PV is released
   hostPath:
     path: /mnt/data  # Path on the host node
+
+
+* pvc (Persistent Volume Claim)
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: my-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi  # PVC request size
 
