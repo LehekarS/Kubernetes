@@ -5,7 +5,7 @@ Kubernetes Overview
 Kubernetes (K8s) is an open-source platform for automating the deployment, scaling, and management of containerized applications. Originally developed by Google, it is now maintained by the Cloud Native Computing Foundation (CNCF).
 
 Why Kubernetes?
-Container Orchestration: Kubernetes helps manage multiple containers across clusters of machines, ensuring that applications run reliably and efficiently.
+* Container Orchestration: Kubernetes helps manage multiple containers across clusters of machines, ensuring that applications run reliably and efficiently.
 Scaling and Self-healing: Kubernetes automatically scales applications based on demand and replaces failed containers to maintain uptime.
 Simplified Networking: It handles internal communication between containers and manages load balancing.
 Key Kubernetes Concepts
